@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: managedcluster-import-controller-addon-mce-25
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: managedcluster-import-controller-addon
+    app.kubernetes.io/part-of: release-mce-25
+  name: managedcluster-import-controller-addon-mce-25
+spec:
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app.kubernetes.io/instance: managedcluster-import-controller-addon-mce-25
+status:
+  loadBalancer: {}
