@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/console-mce-mce-25@sha256:13bbdd1199a1edbeb7d41e5323af46f8b951b84af0e131caa6680aaea7a7c8e7
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/console-mce-mce-25@sha256:83ffd90cd258e34bc0ca7f2fe186d816beb2d73260dae839fd2ea08eb7c13749
         name: container-image
         resources: {}
 status: {}
