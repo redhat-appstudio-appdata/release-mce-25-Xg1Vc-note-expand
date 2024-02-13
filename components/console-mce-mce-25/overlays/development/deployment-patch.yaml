@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: console-mce-mce-25
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
