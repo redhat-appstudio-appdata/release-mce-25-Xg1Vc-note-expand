@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: release-mce-25
   name: cluster-api-provider-kubevirt-mce-25
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
