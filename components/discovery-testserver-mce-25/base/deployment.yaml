@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: discovery-testserver-mce-25
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/discovery-testserver-mce-25@sha256:87e00f7e59179b7035da9cbe9e2378e6891447ed2af3f5f04d1eee24422f29df
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/discovery-testserver-mce-25@sha256:76dde622d7d7296ea1a4332072fd957ed36488561ec283a5d133195a9e815ba7
         imagePullPolicy: Always
         name: container-image
         ports:
