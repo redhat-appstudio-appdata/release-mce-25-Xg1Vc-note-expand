@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/discovery-operator-mce-25@sha256:988ceeb006455f7948bc4dc028547ea38a898290ac1e8b72f4303a49c53e6967
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/discovery-operator-mce-25@sha256:19fa34195a591b039885ba989cec62470ca60d734b89a868fbad31c51e1fd9d0
         name: container-image
         resources: {}
 status: {}
