@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backplane-operator-mce-25
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/backplane-operator-mce-25@sha256:02319e15b0a688a6214abbb69d56c2e1b918811930a6e67151eda16d15b3fae2
+        name: container-image
+        resources: {}
+status: {}
