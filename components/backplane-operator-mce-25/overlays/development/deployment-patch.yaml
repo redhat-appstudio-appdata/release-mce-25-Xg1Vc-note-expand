@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/backplane-operator-mce-25@sha256:88040cfd6da9b9b441bff14d4e68d6d7570180895a22fa0736dc48de15cc8dee
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/backplane-operator-mce-25@sha256:4e665f4f635ac89222ee13208392196e1035fba020acea4ff385f99c365cde92
         name: container-image
         resources: {}
 status: {}
