@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: console-mce-mce-25
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/console-mce-mce-25@sha256:bf7162d525b482681d140a5d80bbae7e75788a05a1371f63ac54f1d14969a56e
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/console-mce-mce-25@sha256:7a8b8d516c660e20b702fd15082a3f730bb0c4df183604a3a60de4b485e7f6af
         imagePullPolicy: Always
         name: container-image
         ports:
