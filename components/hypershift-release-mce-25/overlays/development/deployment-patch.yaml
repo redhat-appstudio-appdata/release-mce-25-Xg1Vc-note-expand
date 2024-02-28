@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hypershift-release-mce-25
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/hypershift-release-mce-25@sha256:75e8fcdce17a6dc5bf3ec413b24a49b12bbf409194c0427be875ad6e74712c84
+        name: container-image
+        resources: {}
+status: {}

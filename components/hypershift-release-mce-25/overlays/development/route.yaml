@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: hypershift-release-mce-25
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: hypershift-release-mce-25
+    app.kubernetes.io/part-of: release-mce-25
+  name: hypershift-release-mce-254llj
+spec:
+  port:
+    targetPort: 9090
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: hypershift-release-mce-25
+    weight: 100
+status: {}
