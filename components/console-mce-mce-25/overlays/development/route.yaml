@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: console-mce-mce-25
     app.kubernetes.io/part-of: release-mce-25
-  name: console-mce-mce-25x4vk
+  name: console-mce-mce-25wwod
 spec:
   port:
     targetPort: 8080
