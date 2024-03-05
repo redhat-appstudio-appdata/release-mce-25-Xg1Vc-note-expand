@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: backplane-operator-mce-25
     app.kubernetes.io/part-of: release-mce-25
-  name: backplane-operator-mce-25cgm1
+  name: backplane-operator-mce-25lbgx
 spec:
   port:
     targetPort: 8080
