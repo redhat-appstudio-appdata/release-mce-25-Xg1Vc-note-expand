@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: discovery-testserver-mce-25
     app.kubernetes.io/part-of: release-mce-25
-  name: discovery-testserver-mce-mieo
+  name: discovery-testserver-mce-qzfi
 spec:
   port:
     targetPort: 8080
