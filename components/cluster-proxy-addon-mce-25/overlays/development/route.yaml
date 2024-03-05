@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: cluster-proxy-addon-mce-25
     app.kubernetes.io/part-of: release-mce-25
-  name: cluster-proxy-addon-mce-24mvl
+  name: cluster-proxy-addon-mce-2rnmp
 spec:
   port:
     targetPort: 8080
