@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: hypershift-release-mce-25
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/hypershift-release-mce-25@sha256:eb5b1fb9086d34795da9be22aed4f7b7f1aef7d6bc9eacbae52962bf9e9136e1
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/hypershift-release-mce-25@sha256:ec86d2019619cc8bffee053845605632a8b33e68f238f66f9b03010c3799a3bf
         imagePullPolicy: Always
         name: container-image
         ports:
