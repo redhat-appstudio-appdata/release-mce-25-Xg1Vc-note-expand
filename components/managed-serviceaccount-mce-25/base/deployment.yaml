@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: managed-serviceaccount-mce-25
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/managed-serviceaccount-mce-25@sha256:44f2ba809f973faa77f41218152166f53af433ec3d7693f152caa7fd0f91612c
         imagePullPolicy: Always
         name: container-image
         ports:
