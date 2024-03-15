@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: cluster-proxy-mce-25
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/cluster-proxy-mce-25@sha256:bd122bdba005679e7826f75c63b8c4367c3d0f01c3d374327d9c1c470f9aa2de
+        name: container-image
+        resources: {}
+status: {}
