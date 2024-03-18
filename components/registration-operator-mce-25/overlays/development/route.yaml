@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: registration-operator-mce-25
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: registration-operator-mce-25
+    app.kubernetes.io/part-of: release-mce-25
+  name: registration-operator-mcezqg0
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: registration-operator-mce-25
+    weight: 100
+status: {}
