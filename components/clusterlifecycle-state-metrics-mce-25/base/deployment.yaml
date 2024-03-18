@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: clusterlifecycle-state-metrics-mce-25
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/clusterlifecycle-state-metrics-mce-25@sha256:f1503600cfe5bb28e24aae6c44aa4cc328b988d915434eefc77f6ab460df9204
         imagePullPolicy: Always
         name: container-image
         ports:
