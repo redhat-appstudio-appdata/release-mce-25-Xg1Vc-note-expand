@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: registration-mce-25
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/registration-mce-25@sha256:765c5c55172f0b760759bf14eaae22a4af4d3c074e330a5170104291f969e43a
+        name: container-image
+        resources: {}
+status: {}
