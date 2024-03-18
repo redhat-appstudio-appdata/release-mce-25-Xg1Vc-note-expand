@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: work-mce-25
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/work-mce-25@sha256:9ebb2d13338a7459e2006ca85d3fef8a1f25649836d72fabf64171d5523403ed
+        name: container-image
+        resources: {}
+status: {}
