@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/clusterlifecycle-state-metrics-mce-25@sha256:f1503600cfe5bb28e24aae6c44aa4cc328b988d915434eefc77f6ab460df9204
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/clusterlifecycle-state-metrics-mce-25@sha256:85a9d46aea12bdc2ffb109983e1af22fa5e482f589c3f31624a865d3c0d9987b
         name: container-image
         resources: {}
 status: {}
