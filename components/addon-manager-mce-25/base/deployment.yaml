@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: addon-manager-mce-25
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/addon-manager-mce-25@sha256:6dc60332064fc3ebe3c31867b45b6fec51966709508baacc6be25ff6c848019e
         imagePullPolicy: Always
         name: container-image
         ports:
