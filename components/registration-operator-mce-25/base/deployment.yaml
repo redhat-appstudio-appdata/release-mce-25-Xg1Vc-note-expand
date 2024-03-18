@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: registration-operator-mce-25
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/registration-operator-mce-25@sha256:0bc850842ba759962aa2a5108e332f5c9794fd2a006e41bcaafad66bdd5c7e8b
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/registration-operator-mce-25@sha256:fdb90efca7452ebf380caf90b2921c60a4b848a3eaf70bf695c44bbbdfa265fb
         imagePullPolicy: Always
         name: container-image
         ports:
