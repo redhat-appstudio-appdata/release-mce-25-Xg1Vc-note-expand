@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: cluster-proxy-addon-mce-25
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/cluster-proxy-addon-mce-25@sha256:7aba7384d567e0cd709cfc89e60fabacc0c9614cb8a58481eda7d1ea038bec9c
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/cluster-proxy-addon-mce-25@sha256:011af29abc8acd6282c0c83ec5c8f54b6a746d4330f4ee494224af5d38191d75
         imagePullPolicy: Always
         name: container-image
         ports:
