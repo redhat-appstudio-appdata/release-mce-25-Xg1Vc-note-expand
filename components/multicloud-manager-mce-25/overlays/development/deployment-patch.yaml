@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multicloud-manager-mce-25
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/release-mce-25/multicloud-manager-mce-25@sha256:49ac869ff64455aa4934f3dbfce7386c8b586ba47fb168acaa3019b21e4c9edb
+        name: container-image
+        resources: {}
+status: {}
